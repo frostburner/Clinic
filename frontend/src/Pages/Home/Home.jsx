@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <>
       <div className={styles.wrapper}>
+        <div className={styles.wrapper_count}>
         <div className={styles.lg_card}>
           Available Medicines
           <h1>16</h1>
@@ -14,6 +15,7 @@ const Home = () => {
         <div className={styles.lg_card}>
           Total Complaints
           <h1>8</h1>
+        </div>
         </div>
       </div>
       <div className={styles.wrapper_form}>
